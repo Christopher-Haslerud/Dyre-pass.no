@@ -1,0 +1,38 @@
+.review-banner {
+  width: 100%;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.banner-card-logo {
+  width: 40px;
+  height: 1.2px;
+  background-color: #6F72CB;
+  margin: 10px 235px 4px;
+  border: 0;
+  border-top: 1px solid #cfd7de;
+}
+
+.banner-card-text {
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: 22px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.banner-card {
+  position: absolute;
+  margin: 0;
+  left: 460px;
+  top: -40px;
+  background-color: white;
+  border-width: 0.5px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-radius: 4px;
+  width: 300px;
+}
+
+

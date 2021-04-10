@@ -1,0 +1,50 @@
+
+
+.description-section {
+  width: 100%;
+}
+
+.card {
+  border-width: 0.5px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  padding: 50px;
+  width: 100%;
+  box-shadow: 0 0 5px rgb(230 230 230);
+}
+
+.card img {
+  height: 60px;
+}
+
+.card h2 {
+  font-size: 20px;
+}
+
+.card p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.description-what-we-do-section {
+  border-width: 0.5px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  box-shadow: 0 0 5px rgb(230 230 230);
+}
+
+.description-what-we-do-section .card-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.description-what-we-do-section .card {
+  border-style: none;
+  box-shadow: none;
+}
+
+.description-what-we-do-section i {
+  color: #6F72CB;
+  font-size: 40px;
+}
