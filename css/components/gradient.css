@@ -1,0 +1,9 @@
+.gradient-filter {
+  margin: 0px;
+  width: 100%;
+  background-color: white;
+  background-image:
+    linear-gradient(
+      white, #0B131A
+    );
+}

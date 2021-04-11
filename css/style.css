@@ -13,6 +13,7 @@
 @import url("components/about.css");
 @import url("components/banner-review.css");
 @import url("components/form.css");
+@import url("components/gradient.css");
 
 /* Utilities */
 html {
@@ -43,6 +44,10 @@ a {
   text-align: center;
 }
 
+.container-no-margin {
+  margin: 0 auto;
+}
+
 
 /* Media Queries */
 
@@ -58,12 +63,35 @@ a {
 
   .container-wide {
     width: 100%;
-    margin: 20px auto;
+  }
+
+  .container-no-margin {
+    margin: 0 auto;
   }
 
   p {
     font-weight: lighter;
     font-size: 16px;
+  }
+
+  /* banner.css */
+
+  .banner-section h1 {
+    position: relative;
+    text-align: left;
+    top: -120px;
+    right: 0px;
+    font-size: 50px;
+  }
+  
+  .banner-section p {
+    position: relative;
+    top: -155px;
+  }
+
+  .banner-section a {
+    position: relative;
+    top: -165px;
   }
 
 /* banner-review.css */
@@ -109,6 +137,7 @@ a {
   padding: 20px 50px;
   margin-bottom: 16px;
   width: 100%;
+  border-radius: 12px;
   box-shadow: 0 0 3px rgb(230 230 230);
 }
 

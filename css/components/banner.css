@@ -10,6 +10,8 @@
   margin: 0;
   margin-bottom: 16px;
   text-shadow: 2px 2px 5px #6F72CB;
+  text-align: left;
+  font-size: 60px;
 }
 
 .banner-section p {
